@@ -11,7 +11,6 @@ const Navbar = () => {
                     <li><a href="#projects">Projects</a></li>
                     <li><a href="#certifications">Certifications</a></li>
                     <li><a href="#game" style={{ color: 'var(--accent)' }}>🎮 Play</a></li>
-                    <li><a href="#game" style={{ color: 'var(--accent)' }}>🎮 Play</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
                 <a className="btn-resume" href="#">Download CV</a>
@@ -23,9 +22,8 @@ const Navbar = () => {
                 <a href="#projects" className="mob-link">Projects</a>
                 <a href="#certifications" className="mob-link">Certifications</a>
                 <a href="#game" className="mob-link" style={{ color: 'var(--accent)' }}>🎮 Play Game</a>
-                <a href="#game" className="mob-link accent">🎮 Play Game</a>
                 <a href="#contact" className="mob-link">Contact</a>
-                <a href="#" className="mob-link accent">Download CV</a>
+                <a href="public/Ankit_Singh_Resume.pdf" className="mob-link accent">Download CV</a>
             </div>
         </nav>
     );
